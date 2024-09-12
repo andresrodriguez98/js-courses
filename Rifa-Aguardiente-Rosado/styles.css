@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100vh;
+    opacity: 10;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.title, h1{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 80px;
+    gap: 5px;
+    justify-content: space-around;
+    align-content: flex-start;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.parr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.content-numbers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.numbers{
+    width: 600px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    border-radius: 5px;
+    padding: 1,5rem;
+    font-size: 25px;
+    flex-wrap: wrap;
+    width: 600px;
+   
+}
+
+.num{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 114, 231, 0.397);
+    border-radius: 5px;
+    padding: 1.5rem;
+    border: 2px solid  rgb(175, 22, 48);
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+}
+
+.bottle-img{
+    background-image:url("./img/Aguardiente-Rosado.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: relative;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
