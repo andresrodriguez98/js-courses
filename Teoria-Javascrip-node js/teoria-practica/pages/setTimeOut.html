@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEMPORIZADOR DE ALARMA / SONIDO / RELOJ</title>
+    <link rel="stylesheet" href="setTimeOut.css" />
+  </head>
+  <body onload="comenzarReloj()">
+    <input type="number" id="tiempoelegido" />
+
+    <button onclick="comenzarTiempo()">Alarma</button>
+
+    <h1 id="textoalarma">00:00:00</h1>
+
+    <audio id="audioAlarma">
+      <source src="../sonidos/alarma.mp3" type="audio/mpeg" />
+      sonido no habilitado
+    </audio>
+
+    <script src="setTimeOut.js"></script>
+  </body>
+</html>
