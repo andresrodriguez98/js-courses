@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 2px solid #000000;
+}
+
+#table{
+    border: 2px solid #000000;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    border: 5px;
+}
+
+#table, h2{
+    border: 2px solid #000000;
+    text-align: center;
+    margin: 5px;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#table, caption{
+    border: 2px solid #000000;
+    text-align: center;
+    margin: 5px;
+    padding: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+th{
+    border: 2px solid #000000;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    font-family: cursive;
+    background-color: chartreuse;
+}
+
+td{
+    background-color: tomato;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+tbody, tr{
+    margin: 5px;
+    padding: 5px;
+}
+
+.red td{
+    background-color: rgba(255, 0, 0, 0.582);
+}
+
+.blue td{
+    background-color: rgba(0, 0, 255, 0.582);
+}
+
+.green td{
+    background-color: rgba(0, 128, 0, 0.582);
+}
+
+.pink td{
+    background-color: rgba(255, 192, 203, 0.582);
+}
+
+.yellow td{
+    background-color: rgba(255, 255, 0, 0.582);
+}
+
+.orange td{
+    background-color: rgba(255, 166, 0, 0.849);
+}
+
