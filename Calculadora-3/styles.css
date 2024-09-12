@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(168, 122, 122);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+}
