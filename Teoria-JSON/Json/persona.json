@@ -1,0 +1,13 @@
+{
+    "nombre": "Andres Martinez",
+    "edad": "25",
+    "estudiante": false,
+    "direccion": {
+        "carrera": "cra 4c. no.45",
+        "ciudad": "magdalena"
+    },
+    "telefonos": [
+        "3204581730",
+        "3174944423"
+    ]
+}
